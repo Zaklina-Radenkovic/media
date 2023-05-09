@@ -1,0 +1,69 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Myra"
+    },
+    {
+      "name": "Harold Strosin",
+      "id": 4
+    },
+    {
+      "name": "Mr. Juana King",
+      "id": 5
+    },
+    {
+      "name": "Mrs. Beatrice Jacobi",
+      "id": 6
+    }
+  ],
+  "albums": [
+    {
+      "userId": 4,
+      "title": "Rustic Fresh Chips",
+      "id": 17
+    },
+    {
+      "userId": 1,
+      "title": "Licensed Metal Keyboard",
+      "id": 19
+    },
+    {
+      "userId": 5,
+      "title": "Rustic Metal Sausages",
+      "id": 20
+    },
+    {
+      "userId": 6,
+      "title": "Rustic Rubber Car",
+      "id": 21
+    },
+    {
+      "userId": 1,
+      "title": "Licensed Soft Chicken",
+      "id": 26
+    },
+    {
+      "userId": 5,
+      "title": "Licensed Granite Table",
+      "id": 27
+    }
+  ],
+  "photos": [
+    {
+      "albumId": 19,
+      "url": "https://loremflickr.com/150/150/abstract?lock=20240",
+      "id": 3
+    },
+    {
+      "albumId": 19,
+      "url": "https://loremflickr.com/150/150/abstract?lock=82249",
+      "id": 4
+    },
+    {
+      "albumId": 19,
+      "url": "https://loremflickr.com/150/150/abstract?lock=34184",
+      "id": 5
+    }
+  ]
+}
