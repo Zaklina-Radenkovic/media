@@ -46,7 +46,7 @@ const photosApi = createApi({
           return {
             url: "/photos",
             params: {
-              userId: album.id,
+              albumId: album.id,
             },
             method: "GET",
           };

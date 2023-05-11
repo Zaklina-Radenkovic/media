@@ -51,6 +51,8 @@ const albumsApi = createApi({
         // providesTags: (result, error, user) => {
         //   return [{ type: "Album", id: user.id }];
         // },
+
+        //more clever tag implementation
         providesTags: (result, error, user) => {
           const tags = result.map((album) => {
             return { type: "Album", id: album.id };
